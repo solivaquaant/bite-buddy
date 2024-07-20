@@ -4,7 +4,7 @@ import appDownload from "../assets/app-download.png"
 const HomePage = () => {
     return (
         <div className="flex flex-col gap-12">
-            <div className="bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
+            <div className="bg-green-200 rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
                 <h1 className="text-5xl font-bold tracking-tigh text-green-600">
                     Welcome to BiteBuddy.com!
                 </h1>

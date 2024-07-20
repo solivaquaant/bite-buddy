@@ -12,7 +12,9 @@ const AppRoutes = () => {
                         <HomePage />
                     </Layout>}
             />
+
             <Route path="/user-profile" element={<span>User profile page</span>} />
+
             <Route path="*" element={<Navigate to="/" />} />
         </Routes>
     )

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import MainNav from "./MainNav";
+import logo from "../assets/icon.png";
 
 const Header = () => {
     return (
@@ -9,6 +10,7 @@ const Header = () => {
                 <Link
                     to="/"
                     className="text-3xl font-bold tracking-tight text-green-500">
+                    <img src={logo} alt="BiteBuddy" className="w-20 h-20 inline-block" />
                     BiteBuddy.com
                 </Link>
                 <div className="md:hidden">
