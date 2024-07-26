@@ -15,12 +15,24 @@ https://github.com/solivaquaant/bite-buddy.git
 2. Navigate to the `backend` directory and install the necessary dependencies:
 ```
 cd backend
+npm i express cors dotenv mongodb mongoose 
+npm i ts-node typescript nodemon @types/express @types/cors @types/node --save-dev
+```
+- Create `.env` and your MongDB String:
+```
+MONGODB_CONNECTION_STRING = [add_yours]
 ```
 3. Navigate to the `frontend` directory and install the necessary dependencies:
 ```
 cd frontend
+npm install -D tailwindcss postcss autoprefixer
 ```
-
+- Create `.env` file and add:
+```
+VITE_AUTH0_DOMAIN=[add-yours]
+VITE_AUTH0_CLIENT_ID=[add-yours]
+VITE_AUTH0_CALLBACK_URI=http://localhost:5173
+```
 
 ### Executing program
 To start the development server, change diretory to `backend` and `frontend`, then run the following command:
